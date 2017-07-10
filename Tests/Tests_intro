@@ -1,0 +1,37 @@
+const chai = require('chai')
+const assert = ('chai').assert
+const addMe = app.addme
+const app = require("../app")
+
+
+function addme (a, b) {
+return a + b
+}
+
+assert.equal(4, addme(2, 2))
+
+const person = {
+  firstName: 'John',
+  lastName: 'Devine'
+}
+
+function fullName (person) {
+  if (person.firstName.length > 0) {
+    return person.firstName + '' + person.lastName
+  } else {
+      return person.lastName }
+    }
+
+assert.equal('John Devine', fullName(person))
+
+assert.equal('Madonna', fullName(
+  {
+    firstName: '',
+    lastName: 'Madonna'
+})
+)
+
+describe('fullname', function() {
+  it('concats properly', )
+}
+)

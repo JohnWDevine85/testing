@@ -1,0 +1,11 @@
+
+
+
+
+describe('reverse string', function(){
+it ('should reverse tacos'), function(){
+assert.equal('socat', reverseString('tacos'))
+assert.equal('socat', reverseString('tacos'))
+assert.equal('socat', reverseString('tacos'))
+}
+})
